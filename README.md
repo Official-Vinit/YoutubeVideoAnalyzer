@@ -119,6 +119,3 @@ GROQ_API_KEY=<your_key>
 
 - Rotate your API key if it is exposed.
 
-## License
-
-MIT (or your preferred license).
