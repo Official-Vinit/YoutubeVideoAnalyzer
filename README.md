@@ -117,19 +117,6 @@ GROQ_API_KEY=<your_key>
 
 - GROQ_API_KEY: Required. Used to authenticate requests to Groq.
 
-## Troubleshooting
-
-- Error: Missing GROQ_API_KEY
-  - Add GROQ_API_KEY to .env (local) or platform secrets (cloud).
-- Transcript-related errors
-  - Some videos may not have transcripts available or may be region-restricted.
-- Invalid URL message
-  - Use full YouTube links like https://www.youtube.com/watch?v=VIDEO_ID or https://youtu.be/VIDEO_ID.
-
-## Security Notes
-
-- Never commit secrets to GitHub.
-- Keep .env in .gitignore.
 - Rotate your API key if it is exposed.
 
 ## License
