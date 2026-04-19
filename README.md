@@ -83,39 +83,5 @@ streamlit run ui.py
 3. Click Analyze Video.
 4. Review the generated report and optionally download it as a .md file.
 
-## Deploy Globally
-
-### Option 1: Streamlit Community Cloud
-
-1. Push this project to GitHub.
-2. Create a new app in Streamlit Community Cloud.
-3. Select your repository and set the main file path to ui.py.
-4. Add GROQ_API_KEY in the app secrets.
-5. Deploy.
-
-### Option 2: Render (Web Service)
-
-- Build command:
-
-```bash
-pip install -r requirements.txt
-```
-
-- Start command:
-
-```bash
-streamlit run ui.py --server.address 0.0.0.0 --server.port $PORT
-```
-
-- Environment variable:
-
-```text
-GROQ_API_KEY=<your_key>
-```
-
-## Environment Variables
-
-- GROQ_API_KEY: Required. Used to authenticate requests to Groq.
-
-- Rotate your API key if it is exposed.
-
+## DEPLOYED ON STREAMLIT link:
+<a href=https://ytvideoanalyzer.streamlit.app/>Click here</a>
